@@ -1,0 +1,38 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  --type-first: 'Inter', sans-serif;
+  font-family: var(--type-first);
+}
+
+p {
+  margin: 0px;
+  font-family: var(--type-first);
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+}
+
+a {
+  text-decoration: none;
+}
